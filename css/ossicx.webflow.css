@@ -1,0 +1,620 @@
+.navbar-bg-color {
+  position: fixed;
+  width: 100%;
+  padding-top: 0px;
+  background-color: #000;
+}
+
+.navlinks {
+  background-color: hsla(0, 0%, 100%, 0);
+  -webkit-transition: color 400ms ease;
+  transition: color 400ms ease;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fff;
+}
+
+.navlinks:hover {
+  background-color: transparent;
+  color: #36b;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.navlinks.w--current {
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  font-weight: 400;
+}
+
+.navlinks.w--current:hover {
+  color: #69c;
+  font-weight: 400;
+}
+
+.main-section {
+  height: 100vh;
+  background-color: #000;
+  background-image: url('../images/Ossic-main.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-section.how {
+  background-color: #fff;
+}
+
+.heading1 {
+  margin-top: -100px;
+  margin-bottom: 0px;
+  background-color: #000;
+  font-family: 'Neusa w00', sans-serif;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.heading-main {
+  margin: 0px;
+  padding: 175px 25px 0px;
+  background-color: transparent;
+  font-family: 'Neusa w00', sans-serif;
+  color: #fff;
+  font-size: 55px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.heading-main.how {
+  border: 5px solid #fff;
+  font-size: 35px;
+}
+
+.how-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0px;
+  padding-top: 28px;
+  border-bottom: 5px none #000;
+  background-color: #f1f2f6;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.div-how {
+  border-style: solid none;
+  border-width: 4px 4px 5px;
+  border-color: #000;
+}
+
+.about-img {
+  width: 100%;
+  padding-top: 0px;
+}
+
+.section3 {
+  height: 100%;
+  margin-top: 0px;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+.about-text {
+  display: block;
+  width: 100%;
+  padding: 45px 0px 0px 25px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.heading-intro {
+  margin-top: 75px;
+  padding-left: 25px;
+  font-family: 'Neusa w00', sans-serif;
+  font-size: 32px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.div-buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.links {
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  background-color: rgba(254, 81, 23, .25);
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  font-family: 'Neusa w00', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.links:hover {
+  background-color: rgba(254, 81, 23, .7);
+}
+
+.h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: 'Neusa w00', sans-serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 1px 0 6px #000, 1px 1px 50px #000, 1px 1px 50px #000, 1px 1px 50px #000, 0 1px 50px #000;
+}
+
+.button-blue {
+  display: block;
+  width: 150px;
+  margin-top: 40px;
+  margin-right: 0px;
+  margin-left: 25px;
+  background-color: #69c;
+  -webkit-transition: background-color 200ms ease, -webkit-transform 200ms ease;
+  transition: background-color 200ms ease, -webkit-transform 200ms ease;
+  transition: background-color 200ms ease, transform 200ms ease;
+  transition: background-color 200ms ease, transform 200ms ease, -webkit-transform 200ms ease;
+  font-family: 'Neusa w00', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.button-blue:hover {
+  background-color: #69c;
+  -webkit-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
+  transform: translate(0px, -3px);
+  font-weight: 500;
+}
+
+.button-blue.button-read {
+  display: block;
+  margin: 45px auto 50px;
+}
+
+.heading-how {
+  margin-top: 0px;
+  padding-top: 44px;
+  font-family: 'Neusa w00', sans-serif;
+  text-align: center;
+}
+
+.p-how {
+  display: block;
+  width: 680px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.div-footer {
+  height: 50px;
+  margin-top: 0px;
+  padding: 0px;
+  background-color: rgba(102, 153, 204, .1);
+  color: #000;
+}
+
+.p-footer {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Neusa w00', sans-serif;
+  text-align: center;
+}
+
+.div-cta {
+  height: 310px;
+  background-color: #000;
+  color: #000;
+}
+
+.button-cta {
+  display: block;
+  width: 150px;
+  margin: 40px auto 0px;
+  background-color: #69c;
+  -webkit-transition: background-color 500ms ease, -webkit-transform 500ms ease;
+  transition: background-color 500ms ease, -webkit-transform 500ms ease;
+  transition: background-color 500ms ease, transform 500ms ease;
+  transition: background-color 500ms ease, transform 500ms ease, -webkit-transform 500ms ease;
+  font-family: 'Neusa w00', sans-serif;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.button-cta:hover {
+  background-color: #69c;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.heading-cta {
+  margin-top: 0px;
+  padding-top: 60px;
+  background-color: #000;
+  font-family: 'Neusa w00', sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.h2-cta {
+  margin-top: 30px;
+  font-family: 'Neusa w00', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.nav-menu {
+  display: block;
+  float: right;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.container-nav {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.img-brand {
+  cursor: pointer;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-left {
+  width: 50%;
+  height: 100vh;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.flex-right {
+  width: 50%;
+  height: 100vh;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-image: url('../images/Ossic-headphones-900px.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+html.w-mod-js *[data-ix="nav-load"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="slow-reveal"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="slow-reveal-2"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="scroll-reveal"] {
+  opacity: 0;
+}
+
+@media (max-width: 991px) {
+  .section2 {
+    background-position: 100% 50%;
+    background-size: cover;
+  }
+  .about-text {
+    width: 350px;
+    padding-left: 40px;
+    font-size: 12px;
+  }
+  .heading-intro {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .button-blue {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .button-cta {
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .button-cta:hover {
+    background-color: #69c;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-section {
+    background-attachment: fixed;
+  }
+  .section2 {
+    height: 700px;
+    background-image: url('../images/Ossic-headphones-mobile.jpg');
+    background-position: 50% 60%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .section3 {
+    height: 100%;
+  }
+  .about-text {
+    padding-top: 350px;
+    text-align: center;
+  }
+  .heading-intro {
+    margin-top: 10px;
+    padding-left: 0px;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .heading-intro.mobile {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .button-blue {
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .button-blue.button-read {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .button-blue.mobile-button {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .p-how {
+    width: auto;
+    padding: 11px 22px 0px;
+  }
+  .div-cta {
+    height: 310px;
+  }
+  .button-cta {
+    margin-top: 40px;
+  }
+  .img-mobile {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .about-text-mobile {
+    margin-top: -45px;
+    padding: 11px 22px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .navlinks {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 45px;
+    padding: 10px;
+    background-color: #000;
+    text-align: left;
+  }
+  .navlinks.w--current {
+    padding: 10px;
+  }
+  .main-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .how-img {
+    padding-top: 25px;
+  }
+  .section2 {
+    height: 100%;
+    padding-top: 36px;
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-attachment: scroll;
+  }
+  .section3 {
+    height: 100%;
+    margin-top: 0px;
+  }
+  .about-text {
+    width: auto;
+    padding-top: 290px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-size: 10px;
+  }
+  .heading-intro {
+    margin-top: 0px;
+    padding-left: 0px;
+    font-size: 21px;
+    letter-spacing: 0px;
+  }
+  .heading-intro.mobile {
+    margin-top: 25px;
+  }
+  .links {
+    margin-top: -10px;
+  }
+  .h2 {
+    margin-top: 50px;
+    font-size: 31px;
+    line-height: 25px;
+  }
+  .button-blue {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .button-blue.button-read {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  .button-blue.mobile-button {
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+  .heading-how {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 35px;
+  }
+  .p-how {
+    width: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-size: 12px;
+  }
+  .p-footer {
+    padding: 14px 0px 0px;
+    font-size: 12px;
+  }
+  .div-cta {
+    height: 255px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .button-cta {
+    margin-top: 32px;
+  }
+  .heading-cta {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .h2-cta {
+    display: block;
+    width: 320px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .nav-menu {
+    display: block;
+    width: auto;
+    background-color: #000;
+    font-size: 14px;
+  }
+  .about-text-mobile {
+    margin-top: -25px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .img-intro-mobile {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+  }
+  .menu-dropdown {
+    background-color: #000;
+  }
+  .menu-button.w--open {
+    background-color: #000;
+  }
+}
+
+@font-face {
+  font-family: 'Neusa w00';
+  src: url('../fonts/Neusa-W00-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
